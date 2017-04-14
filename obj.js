@@ -1,10 +1,10 @@
 const khoa = { name: 'Khoa Pham', age: 30 };
 const huong = { name: 'Huong', age: 29 };
 
-function Nguoi(ten, tuoi, nguoi) {
+function Nguoi(ten, tuoi, vo) {
     this.name = ten;
     this.age = tuoi;
-    this.wife = nguoi;
+    this.wife = vo;
     this.show = function() {
         console.log(this.name + '::' + this.age);
     }
